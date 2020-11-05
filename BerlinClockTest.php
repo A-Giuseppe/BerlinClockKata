@@ -333,7 +333,12 @@ class BerlinClockTest extends PHPUnit_Framework_TestCase
     $actual = $this->berlinClock->secondsLine(0);
 
     $this->assertEquals("A", $actual);
-}
+    }
+public function test_line_seconds_given1_shouldReturnA(){
+    $actual = $this->berlinClock->secondsLine(1);
+
+    $this->assertEquals("E", $actual);
+    }
 
 
 

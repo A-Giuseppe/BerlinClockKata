@@ -82,6 +82,8 @@ class BerlinClock
     }
 
     function secondsLine (int $seconds) : string {
+        if($seconds==1)
+            return "E";
         return "A";
     }
 }
