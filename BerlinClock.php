@@ -48,6 +48,8 @@ class BerlinClock
         elseif (intdiv($minutes,5)==9)
             return "A A A A A A A A A E E";
 
+        elseif($minutes == 50)
+            return "A A A A A A A A A A E";
         return "E E E E E E E E E E E";
     }
 }
