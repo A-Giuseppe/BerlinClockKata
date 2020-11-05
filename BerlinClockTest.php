@@ -240,6 +240,12 @@ class BerlinClockTest extends PHPUnit_Framework_TestCase
         $this->assertEquals("A A E E", $acual);
     }
 
+    public function test_first_line_hours_given3_shouldReturnAAAE(){
+        $acual = $this->berlinClock->firstLineHours(3);
+
+        $this->assertEquals("A A A E", $acual);
+    }
+
 
 
 }
