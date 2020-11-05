@@ -21,10 +21,9 @@ class BerlinClock
     }
 
     function secondLineMinutes (int $minutes) : string {
-        if($minutes==5)
+        if(intdiv($minutes , 5) == 1)
             return "A E E E E E E E E E E";
-        elseif($minutes==6)
-            return "A E E E E E E E E E E";
+
         return "E E E E E E E E E E E";
     }
 }
