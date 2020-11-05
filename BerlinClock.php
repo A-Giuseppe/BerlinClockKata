@@ -70,7 +70,7 @@ class BerlinClock
     }
 
     function secondLineHours (int $hours) : string {
-        if($hours==5 || $hours==6)
+        if(intdiv($hours , 5) == 1)
             return "A E E E";
 
         return "E E E E";
