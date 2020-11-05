@@ -162,4 +162,6 @@ class BerlinClockTest extends PHPUnit_Framework_TestCase
         $this->assertEquals("A A A A A A E E E E E", $actual);
     }
 
+
+
 }
