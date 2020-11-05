@@ -30,6 +30,9 @@ class BerlinClock
         elseif ($minutes==15)
             return "A A A E E E E E E E E";
 
+        elseif ($minutes==16)
+            return "A A A E E E E E E E E";
+
         return "E E E E E E E E E E E";
     }
 }
