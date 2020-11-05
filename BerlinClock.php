@@ -68,4 +68,8 @@ class BerlinClock
             return "A A A A";
         return "E E E E";
     }
+
+    function secondLineHours (int $hours) : string {
+        return "E E E E";
+    }
 }
