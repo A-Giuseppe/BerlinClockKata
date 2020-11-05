@@ -64,7 +64,7 @@ class BerlinClock
             return "A A E E";
         if ($hours%5 ==3)
             return "A A A E";
-        if($hours==4)
+        if($hours==4 || $hours==9)
             return "A A A A";
         return "E E E E";
     }
