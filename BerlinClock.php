@@ -58,7 +58,7 @@ class BerlinClock
     }
 
     function firstLineHours (int $hours) : string {
-        if($hours == 1 || $hours==6)
+        if($hours%5 == 1)
             return "A E E E";
         if($hours==2)
             return "A A E E";
