@@ -74,6 +74,8 @@ class BerlinClock
             return "A E E E";
         elseif (intdiv($hours , 5) == 2)
             return "A A E E";
+        elseif ($hours==15)
+            return "A A A E";
 
         return "E E E E";
     }
