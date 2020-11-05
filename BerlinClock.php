@@ -30,7 +30,8 @@ class BerlinClock
         elseif (intdiv($minutes,5)==3)
             return "A A A E E E E E E E E";
 
-
+        elseif ($minutes==20)
+            return "A A A A E E E E E E E";
         return "E E E E E E E E E E E";
     }
 }
