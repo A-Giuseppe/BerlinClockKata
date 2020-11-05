@@ -58,6 +58,8 @@ class BerlinClock
     }
 
     function firstLineHours (int $hours) : string {
+        if($hours == 1)
+            return "A E E E";
         return "E E E E";
     }
 }
