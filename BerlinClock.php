@@ -44,6 +44,8 @@ class BerlinClock
 
         elseif ($minutes == 40)
             return "A A A A A A A A E E E";
+        elseif ($minutes == 41)
+            return "A A A A A A A A E E E";
 
         return "E E E E E E E E E E E";
     }
