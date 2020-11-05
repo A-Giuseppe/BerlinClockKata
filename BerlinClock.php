@@ -86,4 +86,12 @@ class BerlinClock
             return "E";
         return "A";
     }
+
+    function giveBerlinHour(int $hours, int $minutes, int $seconds) : void{
+        echo $this->secondsLine($seconds);
+        echo $this->secondLineHours($hours);
+        echo $this->firstLineHours($hours);
+        echo $this->secondLineMinutes($minutes);
+        echo $this->firstLineMinutes($minutes);
+    }
 }
