@@ -13,6 +13,8 @@ class BerlinClock
             return "A A A E";
         elseif ($minute == 4 )
             return "A A A A";
+        elseif ($minute == 8)
+            return "A A A E";
         return "E E E E";
     }
 }
