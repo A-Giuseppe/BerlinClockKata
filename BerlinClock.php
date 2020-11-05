@@ -78,7 +78,10 @@ class BerlinClock
             return "A A A E";
         elseif (intdiv($hours , 5) == 4)
             return "A A A A";
-
         return "E E E E";
+    }
+
+    function secondsLine (int $seconds) : string {
+        return "A";
     }
 }
