@@ -33,9 +33,7 @@ class BerlinClock
         elseif (intdiv($minutes,5)==4)
             return "A A A A E E E E E E E";
 
-        elseif($minutes == 25)
-            return "A A A A A E E E E E E";
-        elseif($minutes == 26)
+        elseif(intdiv($minutes,5)==5)
             return "A A A A A E E E E E E";
 
         return "E E E E E E E E E E E";
