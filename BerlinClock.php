@@ -50,6 +50,10 @@ class BerlinClock
 
         elseif($minutes == 50)
             return "A A A A A A A A A A E";
+
+        elseif($minutes == 51)
+            return "A A A A A A A A A A E";
+
         return "E E E E E E E E E E E";
     }
 }
