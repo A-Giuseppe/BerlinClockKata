@@ -5,7 +5,7 @@ namespace BerlinClock;
 class BerlinClock
 {
     function firstLineMinutes (int $minute) : string {
-        if($minute == 1)
+        if($minute%5 == 1)
             return "A E E E";
         elseif ($minute ==2 )
             return  "A A E E";
@@ -13,9 +13,6 @@ class BerlinClock
             return "A A A E";
         elseif ($minute == 4 )
             return "A A A A";
-        elseif($minute == 6)
-            return "A E E E";
-
         return "E E E E";
     }
 }
